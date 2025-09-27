@@ -5,7 +5,7 @@
 
 const prompt = require('prompt-sync')();
 
-pi = 3.14159
+let pi = 3.14159
 const raio = prompt('Informe o Raio da circunferência: ')
 
 const area = pi * ( raio ** 2 ) // CALCULA ÁREA, RAIO ELEVADO A 2 x PI
